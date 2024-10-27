@@ -1,0 +1,77 @@
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span{
+    display: block;
+}
+p{
+    display: inline;
+}
+.second{
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    border: 10px solid black;
+    box-sizing: border-box;
+}
+.third{
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    border: 10px solid black;
+    box-sizing: content-box;
+}
+.four{
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+    float: left;
+    background-color: aquamarine;
+}
+.five{
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+    float: right;
+    background-color: chocolate;
+}
+.six{
+    clear: left;
+    background-color: blue;
+}
+.scroll{
+    overflow: scroll;
+}
+.container{
+    height: 1000px;
+}
+.relative{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: tan;
+}
+.static{
+    position: static;
+    background-color: darkblue;
+}
+.absolute{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background-color: saddlebrown;
+}
+.fixed{
+    position: fixed;
+    top: 0;
+    right: 50px;
+    background-color: firebrick;
+}
+.sticky{
+    position: sticky;
+    top: 0;
+    right: 0;
+    background-color: black;
+}
