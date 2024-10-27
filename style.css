@@ -49,7 +49,7 @@ p{
 }
 .relative{
     position: relative;
-    top: 20px;
+    top: 70px;
     left: 20px;
     background-color: tan;
 }
@@ -66,12 +66,12 @@ p{
 .fixed{
     position: fixed;
     top: 0;
-    right: 50px;
+    right: 150px;
     background-color: firebrick;
 }
 .sticky{
     position: sticky;
     top: 0;
     right: 0;
-    background-color: black;
+    background-color: wheat;
 }
