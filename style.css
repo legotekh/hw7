@@ -1,13 +1,16 @@
-.first{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+header{
+    margin: 30px;
 }
 span{
     display: block;
 }
 p{
     display: inline;
+}
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .second{
     width: 50px;
